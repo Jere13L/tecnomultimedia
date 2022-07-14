@@ -244,3 +244,10 @@ void miBotonRectangular2() {
     //rect(posX[3], posY[3], tamX[3], tamY[3]);
   }
 }
+//BOTON INICIO
+void  miBotonRectangular(float posX, float posY, float tamX, float tamY) {
+  //if ((mouseX> posX) && (mouseX< posX+ tam);
+ if((mouseX> posX) && (mouseX< posX + tamX) && (mouseY> posY) && (mouseY< posY+ tamY)){
+   //rect(posX,posY,tamX,tamY);
+ }
+}
