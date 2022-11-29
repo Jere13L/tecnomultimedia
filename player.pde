@@ -15,7 +15,7 @@ class Player {
   void dibujar () {
     push ();
     
-    //imageMode (CENTER);
+    imageMode (CENTER);
     image (img, px, py);
     pop ();
   }
