@@ -8,7 +8,7 @@ class Juego {
   Punto punto, punto1;
   Pelota [] pelota;
   Boton boton;
-  float posX = width/2-200, posY=height/2+50;
+  float posX = width/2-200, posY=height/2;
   float posX1 = width/2+150, posY1=height/2;
   float posPelota = random(0, width/2);
   float posPelota2 = random( 0, 50);
