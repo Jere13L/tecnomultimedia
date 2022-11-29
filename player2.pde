@@ -14,7 +14,7 @@ class Player2 {
   // funcion dibujar y funcion mover
   void dibujar () {
     push ();
-    //imageMode (CENTER);
+    imageMode (CENTER);
     image (img, px, py);
     pop ();
   }
